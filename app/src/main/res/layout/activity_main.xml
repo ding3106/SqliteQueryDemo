@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lenovo.dingjq1.sqlitequerydemo.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="创建数据库 并且插入数据"
+        android:onClick="createDB"
+        android:background="#ffc0cb" />
+
+    <Button
+        android:id="@+id/btn_sql_query"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sql语句查询"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btn_api"
+        android:text="Api查询"
+        android:onClick="onClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_startActivity"
+        android:text="切换到第二个Activity"
+        android:onClick="onClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
